@@ -8,7 +8,7 @@
 }
 
 $White: hsl(0, 0%, 100%);
-$Light_pink: hsl(275, 100%, 97%);
+$Light_pink:#faeeff;
 $Grayish_purple: hsl(292, 16%, 49%);
 $Dark_purple: hsl(292, 42%, 14%);
 
@@ -28,11 +28,12 @@ $Dark_purple: hsl(292, 42%, 14%);
     height: 100vh;
     width: 100vw;
     padding-top: 250px;
-    background-color: $Light_pink;
+  
     background: url("/assets/images/background-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-size:contain;
     background-position: top;
+    background-color: $Light_pink;
 }
 
 .accordion_main_wrapper{
